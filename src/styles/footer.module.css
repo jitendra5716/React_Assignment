@@ -1,0 +1,100 @@
+.outerDiv{
+    background-color: #212121;
+    background-color: #172337;
+    height: 400px;
+    width: 100%;
+    
+}
+
+.firstDiv{
+    height: 78%;
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+}
+.first{
+    height: 100%;
+    width: 60%;
+     /* border: 2px solid tomato; */
+     display: flex;
+    justify-content: space-around;
+    
+    
+}
+.list ul{
+    height: 70%;
+    color: #fff;
+    list-style: none;
+    
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    padding-left: 0px;
+}
+.list ul li{
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.list ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+.list ul li a:hover{
+    border-bottom: 1px solid gray;
+}
+#lastList{
+    border-right: 1px solid white;
+    height: 50%;
+    margin-top: 20px;
+}
+.list p{
+    color: lightgray;
+    font-size: 0.8rem;
+}
+
+.second{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.secondDiv{
+    /* border: 2px solid white; */
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.firstPara{
+    margin: 10px 0px 0px 15px;
+    color: lightgray;
+}
+
+.secondPara{
+    font-size: 0.8rem;
+    color: white;
+    /* height: 80%; */
+    /* border: 2px solid red; */
+    line-height: 20px;
+    padding: 0px 20px;
+}
+
+.secondContainer{
+    display: flex;
+    height:22%;
+    width: 100%;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    align-items: center;
+    margin: -20px;
+    
+}
+.secondContainer div{
+    color: white;
+   cursor: pointer;
+}

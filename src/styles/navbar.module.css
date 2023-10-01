@@ -1,0 +1,62 @@
+.outerDiv{
+    height: 9vh;
+    width: 100%;
+    background-color: #1c7ed6;
+}
+.innerDiv{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: inherit;
+    margin: 0px auto;
+    display: flex;
+}
+#logoDiv{
+    height: inherit;
+    width: 6rem;
+    cursor: pointer;
+}
+#logoDiv img{
+    height: 90%;
+    width: inherit;
+}
+.searchDiv{
+    height: inherit;
+    width: 60%;
+    /* border: 2px solid green; */
+}
+.searchDiv form{
+    height: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* margin: 0rem 5rem; */
+    justify-content: space-around;
+}
+.searchDiv input{
+    height: 60%;
+    width: 28rem;
+    outline: none;
+    padding-left: 10px;
+}
+.loginBtn{
+    height: 60%;
+    width: 8rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #228be6;
+    font-weight: 600;
+}
+.linkDiv{
+    display: flex;
+    height: inherit;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+}
+.linkDiv span{
+    color:  #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+}

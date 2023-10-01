@@ -1,0 +1,39 @@
+.outerDiv{
+    height: 6vh;
+    width: 100%;
+    background-color: #fff;
+    /* border: 2px solid red; */
+}
+.outerDiv ul{
+    display: flex;
+    height: inherit;
+    width: 86%;
+    /* border: 2px solid blue; */
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px;
+}
+.navItem{
+    list-style: none;
+    /* width: 200px; */
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #212529;
+}
+
+.imgSpan{
+    margin-bottom: 10px;
+    margin-left: 5px;
+    height: 10px;
+    width: 10px;
+    
+}
+.imgSpan img{
+    height: inherit;
+    width: inherit;
+}

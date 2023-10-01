@@ -1,0 +1,104 @@
+.outerDiv{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 850px;
+    margin: 30px auto;
+    background-color: #fff;
+    display: flex;
+}
+.imgDiv{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 40%;
+    background-color: #228be6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.innerDiv{
+    /* border: 2px solid red; */
+    height: 80%;
+    width: 80%;
+}
+.imgDiv h1{
+    margin: 0;
+    color: #fff;
+}
+.imgDiv p{
+    color: #e9ecef;
+    /* font-size: 1.5rem; */
+    font-weight: 600;
+}
+
+.loginImgDiv{
+    height: 250px;
+    width: 260px;
+    margin-top: 50px;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+.loginImgDiv img{
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+}
+.formDiv{
+    height: inherit;
+    width: 60%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formInnerDiv{
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid red; */
+    position: relative;
+}
+.formInnerDiv form{
+    width: 100%;
+    /* border: 2px solid green; */
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.formInnerDiv form input{
+    height: 2.4rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-size: 1rem;
+    font-weight: 500;
+    color: gray;
+}
+.formInnerDiv form p{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.formInnerDiv form button{
+    height: 3rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #f76707;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.formInnerDiv form button:active{
+    transform: scale(0.97);
+}
+.createAcc{
+    position:absolute;
+    bottom: 0px;
+    left: 25%;
+    text-decoration: none;
+    color: #228be6;
+    font-weight: 600;
+}
